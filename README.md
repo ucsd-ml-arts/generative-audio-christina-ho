@@ -8,6 +8,8 @@ Your Name, yourcontact@ucsd.edu
 
 Include your abstract here. This should be one paragraph clearly describing your concept, method, and results. This should tell us what architecture/approach you used. Also describe your creative goals, and whether you were successful in achieving them. Also could describe future directions.
 
+For this project, I plan on creating a piece of audio that would sound like as if former President Barack Obama was speaking it. I will train the model on Obama's previous speeches and use a model to either have it sound as if Obama is speaking the text given to him or create it's own speech.
+
 ## Model/Data
 
 Briefly describe the files that are included with your repository:
