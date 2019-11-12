@@ -1,0 +1,2 @@
+syn_model_dir: voicecloning/synthesizer/saved_models/logs-pretrained/
+voc_model_fpath: voicecloning/vocoder/saved_models/pretrained/pretrained.pt
