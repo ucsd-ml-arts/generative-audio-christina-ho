@@ -1,44 +1,35 @@
-# Project 3 Generative Audio
+# Project 2 Generative Audio
 
-Your Name, yourcontact@ucsd.edu
-
-(Your teammate's contact info, if appropriate)
+Christina Ho, cgh003@ucsd.edu
 
 ## Abstract
 
-Include your abstract here. This should be one paragraph clearly describing your concept, method, and results. This should tell us what architecture/approach you used. Also describe your creative goals, and whether you were successful in achieving them. Also could describe future directions.
-
-For this project, I plan on creating a piece of audio that would sound like as if former President Barack Obama was speaking it. I will train the model on Obama's previous speeches and use a model to either have it sound as if Obama is speaking the text given to him or create it's own speech.
+Many people may know that since taking office, President Trump is not the most eloquent speaker. However, President Obama was. For this project, I train audios of President Obama speaking on a text-to-speech voice cloning algorithm so that it will create an audio that sounds like as if former President Barack Obama was speaking something President Trump has said. The algorithm uses both WaveRNN and TacoTron2 to use pretrained models and the wav file given it to generate a wav file that mimics the patterns of Obama's voice. 
 
 ## Model/Data
 
 Briefly describe the files that are included with your repository:
-- trained models
-- training data (or link to training data)
+- Pretrained models included from https://github.com/cgh003/Real-Time-Voice-Cloning
+- Over an hour of Obama's voice: 
 
 ## Code
 
 Your code for generating your project:
-- Python: generative_code.py
-- Jupyter notebooks: generative_code.ipynb
+- Python: main.py - Include the file path to a piece of text to be spoken.
 
 ## Results
 
 Documentation of your results in an appropriate format, both links to files and a brief description of their contents:
 - `.wav` files or `.mp4`
-- `.midi` files
-- musical scores
-- ... some other form
 
 ## Technical Notes
 
 Any implementation details or notes we need to repeat your work. 
-- Does this code require other pip packages, software, etc?
-- Does it run on some other (non-datahub) platform? (CoLab, etc.)
+- first add the submodule for voice cloning
+- pip install -r requirements.txt
+- Run download.sh
 
 ## Reference
 
 References to any papers, techniques, repositories you used:
-- Papers
-- Repositories
-- Blog posts
+- https://github.com/CorentinJ/Real-Time-Voice-Cloning
