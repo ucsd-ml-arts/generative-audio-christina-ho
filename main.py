@@ -4,21 +4,17 @@ import yaml
 import argparse
 import platform
 
-
-op_sys = platform.system()
-if op_sys == 'Darwin':
-    from Foundation import NSURL
-
-from voice_cloning import TTS
+from voice_cloning import voiceClone
 
 import tensorflow as tf
 tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR)
 
 
 def main(text):
- 
-    self.tts = TTS()
-    self.tts.speak(text)
+    tts = voiceClone()
+    f = open(text, 'r')
+    contents = f.read()
+    tts.speak(contents)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
