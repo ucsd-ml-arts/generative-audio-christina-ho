@@ -1,6 +1,0 @@
-[submodule "Real-Time-Voice-Cloning"]
-	path = Real-Time-Voice-Cloning
-	url = https://github.com/cgh003/Real-Time-Voice-Cloning
-[submodule "voicecloning"]
-	path = voicecloning
-	url = https://github.com/cgh003/Real-Time-Voice-Cloning
