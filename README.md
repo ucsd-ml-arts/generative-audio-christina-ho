@@ -10,7 +10,7 @@ Many people may know that since taking office, President Trump is not the most e
 
 Briefly describe the files that are included with your repository:
 - Pretrained models included from https://github.com/cgh003/Real-Time-Voice-Cloning
-- Over an hour of Obama's voice: 
+- Over an hour of Obama's voice: https://drive.google.com/file/d/1hte-CR3lM-SvPbe3UqhkyHtOfipCV9HE/view?usp=sharing
 
 ## Code
 
@@ -20,7 +20,8 @@ Your code for generating your project:
 ## Results
 
 Documentation of your results in an appropriate format, both links to files and a brief description of their contents:
-- `.wav` files or `.mp4`
+- With background noise result: https://drive.google.com/file/d/1EEQy0enl9Mr030T-dS8eMBq9oa0LODk8/view?usp=sharing
+- With less background noise result: https://drive.google.com/file/d/1yCvXad_EeJLnO3PMSx-QEDQl1ZykYY1U/view?usp=sharing
 
 ## Technical Notes
 
