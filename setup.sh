@@ -5,7 +5,6 @@ for path in voicecloning; do
     python3 setup.py develop --user
     cd -
 done
-./venv_setup.sh
 
 # 2
 ./download.sh
