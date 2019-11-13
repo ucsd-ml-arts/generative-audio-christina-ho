@@ -15,7 +15,9 @@ Briefly describe the files that are included with your repository:
 ## Code
 
 Your code for generating your project:
-- Python: main.py - Include the file path to a piece of text to be spoken.
+- Python: 
+    - main.py - Include the file path to a piece of text to be spoken.
+    - voice_cloning.py - File that trains the voice cloning.
 
 ## Results
 
